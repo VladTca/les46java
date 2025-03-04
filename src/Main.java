@@ -21,7 +21,7 @@ public class Main {
 
     }
 
-    private static List<Programmer> getProgrammers() {
+    static List<Programmer> getProgrammers() {
         List<Programmer> programmers = new ArrayList<>();
         programmers.add(new Programmer("Programmer1", "Berlin", getTasks()));
         programmers.add(new Programmer("Programmer2", "Munchen", getTasks()));
